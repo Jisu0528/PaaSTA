@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_navy">
+
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top|center_horizontal"
+        android:drawableLeft="@drawable/appicon"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:text="앱 이름"
+        android:textColor="@color/sub_white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/login_background" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/solid_gray_button"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:hint="password"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/solid_gray_button"
+        android:inputType="textPassword"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginBottom="65dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/bt_signin"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:onClick="Signin"
+        android:background="@drawable/solid_navy_button"
+        android:textColor="@color/sub_white"
+        android:layout_gravity="center|center_horizontal" />
+
+    <Button
+        android:id="@+id/bt_forget"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:text="forget password?"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="#00000000"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="22dp"
+        android:text="Can't have an account?"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/main_navy"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+        android:id="@+id/bt_signup"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/point_orange"
+        android:background="#00000000"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:onClick="Signup"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="22dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="지수와 의정이 \(・ ﻌ ・)/"
+        android:textColor="@color/sub_gray"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+
+</FrameLayout>

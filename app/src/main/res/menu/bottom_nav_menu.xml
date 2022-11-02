@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_recipe"
+        android:title="recipe"
+        android:icon="@drawable/ic_restaurant_menu_24"
+        />
+    <item
+        android:id="@+id/menu_review"
+        android:title="review"
+        android:icon="@drawable/ic_edit_24"
+        />
+    <item
+        android:id="@+id/menu_camera"
+        android:title="scan"
+        android:icon="@drawable/appicon"
+        />
+    <item
+        android:id="@+id/menu_search"
+        android:title="search"
+        android:icon="@drawable/ic_search_24"
+        />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="profile"
+        android:icon="@drawable/ic_person_24"
+        />
+</menu>
